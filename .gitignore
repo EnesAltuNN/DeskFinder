@@ -1,0 +1,32 @@
+# Python Sanal Ortamı
+venv/
+k_env/
+.venv/
+
+# Python cache dosyaları
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+
+# macOS sistem dosyası
+.DS_Store
+Thumbs.db
+# Model agirliklari - ultralytics otomatik indirir
+*.pt
+*.pth
+
+# Yerel ayarlar ve kimlik bilgileri
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Yerel video, kayıt ve model çıktıları
+*.mp4
+*.avi
+*.mov
+*.mkv
+runs/
+*.log
