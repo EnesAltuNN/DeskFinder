@@ -12,6 +12,22 @@ Hedef nesneler: insan, sırt çantası, el çantası, şişe, fincan, dizüstü 
 
 Bu sürüm masa doluluğu takibine yönelik bir prototiptir. Gerçek bir otoparkta kamerayla canlı boş/dolu park yeri takibi, projenin sonraki geliştirme aşamasıdır; mevcut sürüm araç takibi yapmaz.
 
+## Ekran görüntüleri
+
+Görseller [Yukseltt/DeskFinder](https://github.com/Yukseltt/DeskFinder) deposundaki README'den alınmıştır.
+
+**İki masanın da boş gösterildiği örnek:**
+
+![İki masa yeşil sınırlarla boş olarak gösteriliyor](docs/images/deskfinder-01.png)
+
+**Dizüstü bilgisayar algılandığında ilk masa dolu gösterilir:**
+
+![Dizüstü bilgisayar bulunan ilk masa dolu, ikinci masa boş](docs/images/deskfinder-02.png)
+
+**Dizüstü bilgisayar ve sırt çantası algılandığında iki masa da dolu gösterilir:**
+
+![Dizüstü bilgisayar ve sırt çantası bulunan iki masa kırmızı sınırlarla dolu olarak gösteriliyor](docs/images/deskfinder-03.png)
+
 ## Özellikler
 
 - Kamera görüntüsü üzerinde boş/dolu alan gösterimi.
@@ -126,6 +142,7 @@ Hesaplama cihazı için Ultralytics'in varsayılan seçimi kullanılır; macOS'a
 
 ```text
 DeskFinder/
+├── docs/images/      # Örnek ekran görüntüleri
 ├── main.py           # Kamera, nesne tespiti ve alan düzenleme
 ├── config.json       # Masa alanlarının koordinatları
 ├── requirements.txt  # Python bağımlılıkları
